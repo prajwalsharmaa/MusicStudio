@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Echo Studios
+    </title>
+    <link rel="icon" type="image/png" href="echo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="echo.png" alt="" ></a>
+            <div class="nav-links" id="navLinks">
+                <i class="bi bi-box-arrow-right" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#book">BOOK</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <li><a href=""></a></li>
+                </ul>
+
+            </div>
+            <i class="bi bi-list" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Nepal's Most Qualitative <br>Music Recording Facility</h1>
+            <p>"Amazing music crafted by the best talents."</p>
+            <a href="https://maps.app.goo.gl/MAnzp7j8YyKj4TBaA" target="_blank" class="visit-btn">Visit Us To Know More</a>
+        </div>
+    </section>
+<!-- Services -->
+    <section class="services" id="services">
+        <h1>
+            Services We Offer
+        </h1>
+        <p>We offer :</p>
+        <div class="row">       
+            <div class="services-col">
+            <h3>Recording and Mastering</h3>
+            <img src="recording.avif" alt="#" height="200px" width="300px" >
+            <p> Our ears, gear and meticulously designed studios help unleash your potential and give
+                your project a premium sound . 
+            </p>
+            </div>
+            <div class="services-col">
+                <h3>Production and Sound Design</h3>
+                <img src="sounddesigning.jpg" alt="" height="200px" width="300px">
+                <p>Whether it's creating an immersive audio experience or that next pop hit, bringing your
+                    ideas to life is what we do best.
+                </p>
+            </div>
+                <div class="services-col">
+                <h3>Songwriting and Composition</h3>
+                <img src="songwriting.jpg" alt="" height="200px" width="300px">
+                <p>Have you ever considered performing a record music but just don't feel comfortable 
+                    writing your own material?
+                </p>
+
+            </div>
+            
+        </div>
+        </section>
+    <!------- Book------>
+    
+    <section class="book" id="book">
+    <div class="form-container">
+    <div class="title">
+    Book A Session With Us
+    </div>
+    <form action="#" type = "POST">
+        <div class="user-details">
+            <div class="input-box">
+                <span class="details">Full Name</span>
+                <input type="text" placeholder="Name" required>
+            </div>
+            <div class="input-box">
+                <span class="details">Phone No.</span>
+                <input type="tel" placeholder="Ph.number" required id="number">
+            </div>
+            <div class="input-box">
+                <span class="details">Email</span>
+                <input type="text" placeholder="Email" required>
+            </div>
+            <div class="input-box">
+                <span class="details">City</span>
+                <input type="text" placeholder="City" required>
+            </div>
+            <div class="input-box">
+                <span class="details">Booking Date</span>
+                <!-- <input type="text" placeholder="Enter Booking Date" required> -->
+                <select name="Day" id="Day">
+                    <option value="">Day</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                    <option value="29">29</option>
+                    <option value="30">30</option>
+                    <option value="31">31</option>
+            
+                </select>
+
+                <select name="Month" id="Month">
+                    <option value="">Month</option>
+                    <option value="1">Jan</option>
+                    <option value="2">Feb</option>
+                    <option value="3">Mar</option>
+                    <option value="4">Apr</option>
+                    <option value="5">May</option>
+                    <option value="6">Jun</option>
+                    <option value="7">Jul</option>
+                    <option value="8">Aug</option>
+                    <option value="9">Sep</option>
+                    <option value="10">Oct</option>
+                    <option value="11">Nov</option>
+                    <option value="12">Dec</option>
+                </select>
+
+                <select name="Year" id="Year">
+                    <option value="">Year</option>
+                    <option value="2025">2025</option>
+                    <option value="2026">2026</option>
+                    <option value="2027">2027</option>
+                </select>
+            </div>
+            <div class="input-box">
+                <span class="details">Service</span>
+                <!-- <input type="text" placeholder="Enter service you want" required> -->
+                <select name="service" id="service">
+                    <option value="">Recording and Mastering</option>
+                    <option value="">Production and Sound Design</option>
+                    <option value="">Songwriting and Composition</option>
+                </select>
+            </div>
+        </div>   
+        </div>
+        <div>
+            <input type="submit" value="Book" onclick="check()">
+        </div>
+    </form>
+
+</div>
+</section>
+<section class="about-section" id="about">
+    <p><strong>Echo Studios</strong>, where creativity meets professional sound. We provide expert services in <strong>Recording & Mastering, Production & Sound Design, and Songwriting & Composition</strong>.</p>
+    <div class="why-choose-us">
+        <h2>Why Choose Us?</h2>
+        <ul>
+            <li>✔ Industry-Standard Equipment</li>
+            <li>✔ Comfortable & Creative Space</li>
+            <li>✔ Skilled Engineers & Producers</li>
+            <li>✔ Affordable Packages for All Artists</li>
+        </ul>
+    </div>
+    <h1>Instruments We Use At Echo Studios</h1>    
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Category</th>
+                    <th>Instruments Used</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Recording and Mastering</td>
+                    <td>Audio Interface, Microphones, Studio Monitors, Headphones, Mixing Console, DAW, MIDI Controller, Preamps</td>
+                </tr>
+                <tr>
+                    <td>Production and Sound Design</td>
+                    <td>Synthesizers, Samplers, Drum Machines, MIDI Controllers, DAW, Virtual Instruments, FX Processors</td>
+                </tr>
+                <tr>
+                    <td>Songwriting and Composition</td>
+                    <td>Piano, Guitar, MIDI Keyboard, Notation Software, DAW, Acoustic Instruments, Chord and Lyric Sheets</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+<!----- Contact ------>    
+<section class="contact" id="contact">
+    <div class="whatsapp">
+<h1>
+Contact Us At WhatsApp
+</h1>
+<img src="whatsapp.jpg" alt="#">
+</div>
+<div class="googleMap">
+<h1>
+Visit Us To Know More
+</h1>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.665730341743!2d79.89394627396034!3d7.048509216841898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2f786cac2134b%3A0xd0d1477698054505!2sECHO%20Studios!5e0!3m2!1sen!2snp!4v1739625842479!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+</section>
+
+<section class="footer_section">
+    <footer>
+        <div class="footer-container">
+            <div class="social-icons">
+                <a href="https://www.instagram.com/prajwalsharma__/" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/prajwal.sharma.378/" target="_blank" class="social-icon"><i class="fab fa-facebook"></i></a>
+                <a href="mailto:prj1213@gmail.com" class="social-icon"><i class="fas fa-envelope"></i></a>
+                <a href="#" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+</section>  
+<!-- Javascript for toggle  -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu () {
+        navLinks.style.right = "0";
+    }
+    function hideMenu () {
+        navLinks.style.right = "-200px";
+    }
+    function check(){
+        const number = document.getElementById(`number`);
+        if(number.value.length > 10 || number.value.length < 10){
+            window.alert("please enter a valid number");
+        }
+        else{
+            window.alert("you are successfully booked");
+        }
+    }
+</script>
+</body>
+</html>
